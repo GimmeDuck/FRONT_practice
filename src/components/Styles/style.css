@@ -1,9 +1,22 @@
 
 
+span{
+    display: flex;
+    font-size: 2vmax;
+    width: 8%;
+    top: 10px;
+    border: 2px solid gray;
+    background-color: rgba(128, 128, 128, 0.671);
+    border-radius: 2vmax;
+    margin:2vmax;
+    text-align: center;
+    padding: 2vmax;
+}
+
 
 .main-Div{
-    width: 75%;
-    height: 65vmax;
+    width: 70vmax;
+    height: 50vmax;
     position: relative;
     border: 6px solid rgba(0, 0, 0, 0.534);
     border-radius: 10px;

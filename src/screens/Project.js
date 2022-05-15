@@ -8,19 +8,19 @@ const Project = () => {
 <div class="main-Div">
 
    <div class="Character">
-   <img src={require("../assets/img/body.png")} style={{ width:400, objectFit:'contain'}}/>
+   <img src={require("../assets/img/body.png")} id="chara-img" style={{ width:'100%',height:'100%', objectFit:'contain'}}/>
    </div>
 
    <div class="Character">
-     <img src={require("../assets/img/eye/eye1.png")} style={{width:400, objectFit:'contain'}}/>
+     <img src={require("../assets/img/eye/eye1.png")} style={{width:'100%',height:'100%', objectFit:'contain'}}/>
    </div>
 
    <div class="Character-color">
-   <button class="change-color-White" onClick={()=>{
-       changeChcolor("white")
+   <button class="change-color-White" onClick={ ()=>{
+       changeChcolor(1)
      }}></button>
      <button class="change-color-black" onClick={()=>{
-       changeChcolor("black")
+       console.log(2)
      }}></button>
      <button class="change-color-pink" onClick={()=>{
        changeChcolor("pink")
