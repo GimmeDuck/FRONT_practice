@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {Button} from "react-bootstrap";
 
 
 const home = () => {
   return (
     <div>
       <h1>Home page</h1>
-      <button>connect</button>
+      <Button variant="dark">Klip</Button>
       
     </div>
   )

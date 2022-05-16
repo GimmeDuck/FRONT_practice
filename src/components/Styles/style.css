@@ -16,41 +16,68 @@ span{
 
 .main-Div{
     width: 70vmax;
-    height: 50vmax;
+    height: 40vmax;
     position: relative;
-    border: 6px solid rgba(0, 0, 0, 0.534);
+    
     border-radius: 10px;
     margin: 10%;
-    background-color: rgba(255, 255, 255, 0.767);
+    background-color: gray;
+    
 }
-.clot-div{
-    position: absolute;
-    margin: 30px;
-    width: 45%;
-    border: 5px solid rgba(0, 0, 0, 0.548);
-    border-radius: 10px;
-}
+
+
 .Character{
     position: absolute;
     margin: 30px;
     width: 45%;
-    border: 5px solid rgba(0, 0, 0, 0.548);
+    border: 5px solid white;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.Character-1{
+    position: absolute;
+    margin: 30px;
+    width: 45%;
+    border: 5px solid white;
     border-radius: 10px;
 }
 
 .Character-clothes{
     right: 0;
-    margin-top: 10vmax;
-    margin-right: 8vmax;
-    width: 18vmax; height: 23vmax;
+    margin-top: 1vmax;
+    margin-right: 16vmax;
+    width: 10vmax; height: 10vmax;
     position: absolute;
     border-radius: 10px;
-    border: 5px solid rgba(0, 0, 0, 0.548);
+    
+    
 }
+
+.Character-clothes-1{
+    right: 0;
+    margin-top: 6vmax;
+    margin-right: 16vmax;
+    
+    width: 10vmax; height: 11vmax;
+    position: absolute;
+}
+
+.Character-clothes-2{
+    right: 0;
+    margin-top: 11vmax;
+    margin-right: 16vmax;
+    
+    width: 10vmax; height: 10vmax;
+    position: absolute;
+    border-radius: 10px;
+}
+
 .clothes-change{
     position: absolute;
     right: 0;    bottom: 0;
-    margin-right: 13vmax; margin-bottom: 11vmax;
+    margin-right: 13vmax;
+    margin-top: 30px;
 }
 i{
     margin: 1vmin;
@@ -63,29 +90,28 @@ i{
     border: 0.5vmin solid rgba(0, 0, 0, 0.514);
     width: 5vmax;   height:5vmax;
     border-radius: 35px;
-    margin-top: 2vmax;
-    margin-right: 0.6vmax;
+    margin-top: 15vmax;
+    margin-right: 3vmax;
     
 }
 
-.change-color-White{
-    background-color: white;
+
+.change-color-green{
+    background-color: green;
 }
-.change-color-black{
-    background-color: gray;
-}
-.change-color-pink{
-    background-color: rgb(255, 215, 221);
+.change-color-red{
+    background-color: orange;
 }
 .change-color-yellow{
-    background-color: rgb(255, 244, 215);
+    background-color: yellow;
 }
 .change-color-blue{
-    background-color: rgb(215, 246, 255);
+    background-color: blue
 }
-.change-color-purple{
-    background-color: rgb(218, 215, 255);
+.change-color-black{
+    background-color: black
 }
+
 
 
 .footer{
@@ -103,27 +129,10 @@ i{
 }
 
 
+
 @media (max-width:1242px){
     .clothes-change{
         margin-right: 11vmax; margin-bottom: 8vmax;
     }
 }
 
-.explanation{
-    display: none;
-    text-align: center;
-    font-size: 2.5vw;
-    padding-top: 3vmax;
-    height:  10vmax;
-    position: fixed;
-    width: 100%;
-    left: 0; bottom: 0;
-    background-color: rgba(255, 255, 255, 0.856);
-}
-.explanation i{
-    float: right;
-    top:0;
-    font-size: 5vw;
-    padding: 10px;
-    bottom: 20px;
-}
