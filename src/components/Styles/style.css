@@ -1,49 +1,45 @@
-
-
-span{
-    display: flex;
-    font-size: 2vmax;
-    width: 8%;
-    top: 10px;
-    border: 2px solid gray;
-    background-color: rgba(128, 128, 128, 0.671);
-    border-radius: 2vmax;
-    margin:2vmax;
-    text-align: center;
-    padding: 2vmax;
+.FullScreen{
+    width:100vw;
+    height: 100vh;
 }
-
-
-.main-Div{
+.main-Div {
     width: 80vmax;
     height: 45vmax;
     position: relative;
     display: flex;
     flex-direction: row;
     border-radius: 10px;
-    margin: 10%;
+    margin: 7%;
     background-color: black;
-    
+
 }
 
-
-.Character{
+.Back {
     position: absolute;
     margin: 4vmax;
     width: 45%;
-    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.Character {
+    position: absolute;
+    margin: 4vmax;
+    width: 45%;
+    height: 80%;
     background-color: white;
     border-radius: 10px;
 }
 
-.Character-1{
+.Character-1 {
     position: absolute;
-    margin: 30px;
+    margin: 5%;
     width: 45%;
     border-radius: 10px;
 }
 
-.RightPanel{
+
+
+.RightPanel {
     position: absolute;
     width: 42%;
     height: 78%;
@@ -56,119 +52,82 @@ span{
     margin-top: 4vmax;
 }
 
-.Character-clothes{
+.SideBtn {
     right: 0;
     margin-top: 1vmax;
-    margin-right:7vmax;
-    width: 10vmax; height: 10vmax;
+    margin-right: 4vmax;
+    width: 20vmax;
+    height: 11vmax;
     position: absolute;
     border-radius: 10px;
-    
-    
+
+
 }
 
-.Character-clothes-1{
+.SideBtn-1 {
     right: 0;
-    margin-top: 6vmax;
-    margin-right:7vmax;
-    
-    width: 10vmax; height: 10vmax;
+    margin-top: 7vmax;
+    margin-right: 4vmax;
+    width: 20vmax;
+    height: 11vmax;
     position: absolute;
 }
 
-.Character-clothes-2{
+.SideBtn-2 {
     right: 0;
-    margin-top: 11vmax;
-    margin-right:7vmax;
-    
-    width: 10vmax; height: 10vmax;
-    position: absolute;
-    border-radius: 10px;
-}
-.Character-clothes-3{
-    right: 0;
-    margin-top: 16vmax;
-    margin-right:7vmax;
-    
-    width: 10vmax; height: 10vmax;
+    margin-top: 13vmax;
+    margin-right: 4vmax;
+    width: 20vmax;
+    height: 11vmax;
     position: absolute;
     border-radius: 10px;
 }
 
-.Character-clothes-4{
+.SideBtn-3 {
     right: 0;
-    margin-top: 21vmax;
-    margin-right:7vmax;
-    
-    width: 10vmax; height: 10vmax;
+    margin-top: 19vmax;
+    margin-right: 4vmax;
+    width: 20vmax;
+    height: 11vmax;
     position: absolute;
     border-radius: 10px;
 }
 
-.Character-clothes-5{
+.SideBtn-4 {
     right: 0;
-    margin-top: 26vmax;
-    margin-right:7vmax;
-    
-    width: 10vmax; height: 10vmax;
+    margin-top: 25vmax;
+    margin-right: 4vmax;
+    width: 20vmax;
+    height: 11vmax;
     position: absolute;
     border-radius: 10px;
 }
 
-.Character-clothes-6{
+.SideBtn-5 {
     right: 0;
     margin-top: 31vmax;
-    margin-right:7vmax;
-    
-    width: 10vmax; height: 10vmax;
+    margin-right: 4vmax;
+
+    width: 20vmax;
+    height: 11vmax;
     position: absolute;
     border-radius: 10px;
 }
-.SideBtn{
-    float: right;
-    width:50%;
-    height:50%
-}
 
-.clothes-change{
+.SideBtn-6 {
+    right: 0;
+    margin-top: 37vmax;
+    margin-right: 4vmax;
+
+    width: 20vmax;
+    height: 11vmax;
     position: absolute;
-    right: 0;    bottom: 0;
-    margin-right: 13vmax;
-    margin-top: 30px;
-}
-i{
-    margin: 1vmin;
+    border-radius: 10px;
 }
 
 
-.Character-color button{
-    float: right;
-    border: 0.5vmin solid rgba(0, 0, 0, 0.514);
-    width: 5vmax;   height:5vmax;
-    border-radius: 35px;
-    margin-top: 15vmax;
-    margin-right: 3vmax;
-    
-}
 
-
-.change-color-white{
-    background-color: white;
-}
-.change-color-red{
-    background-color: orange;
-}
-.change-color-yellow{
-    background-color: yellow;
-}
-.change-color-blue{
-    background-color: blue
-}
-.change-color-black{
-    background-color: black
-}
-
-.Card{
+.Card {
     background-color: white;
     border-radius: 10px;
     width: 15vmax;
@@ -176,35 +135,30 @@ i{
     opacity: 90%;
 }
 
-.Card-1{
-    border: 5px;
-    border: 5px solid white;
-    background-color: white;
-    border-radius: 10px;
-    margin-top: 30px;
-    margin-right: 20px;
-}
 
 
-.footer{
+.footer {
     font-weight: bold;
     position: fixed;
-    left: 0; bottom: 0;
-    padding-top: 5px ;
+    left: 0;
+    bottom: 0;
+    padding-top: 5px;
     text-align: center;
-    height: 25px;    width: 100%;
+    height: 25px;
+    width: 100%;
     background: rgba(49, 49, 49, 0.651)
 }
-.footer a{
+
+.footer a {
     text-decoration: none;
     color: white;
 }
 
 
 
-@media (max-width:1242px){
-    .clothes-change{
-        margin-right: 11vmax; margin-bottom: 8vmax;
+@media (max-width:1242px) {
+    .clothes-change {
+        margin-right: 11vmax;
+        margin-bottom: 8vmax;
     }
 }
-
