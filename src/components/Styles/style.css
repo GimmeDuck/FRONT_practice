@@ -15,20 +15,21 @@ span{
 
 
 .main-Div{
-    width: 70vmax;
-    height: 40vmax;
+    width: 80vmax;
+    height: 45vmax;
     position: relative;
-    
+    display: flex;
+    flex-direction: row;
     border-radius: 10px;
     margin: 10%;
-    background-color: gray;
+    background-color: black;
     
 }
 
 
 .Character{
     position: absolute;
-    margin: 30px;
+    margin: 4vmax;
     width: 45%;
     border: 5px solid white;
     background-color: white;
@@ -39,14 +40,26 @@ span{
     position: absolute;
     margin: 30px;
     width: 45%;
-    border: 5px solid white;
     border-radius: 10px;
+}
+
+.RightPanel{
+    position: absolute;
+    width: 42%;
+    height: 78%;
+    background-color: rgb(70, 70, 70);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 10px;
+    margin-left: 43vmax;
+    margin-top: 4vmax;
 }
 
 .Character-clothes{
     right: 0;
     margin-top: 1vmax;
-    margin-right: 16vmax;
+    margin-right:7vmax;
     width: 10vmax; height: 10vmax;
     position: absolute;
     border-radius: 10px;
@@ -57,20 +70,64 @@ span{
 .Character-clothes-1{
     right: 0;
     margin-top: 6vmax;
-    margin-right: 16vmax;
+    margin-right:7vmax;
     
-    width: 10vmax; height: 11vmax;
+    width: 10vmax; height: 10vmax;
     position: absolute;
 }
 
 .Character-clothes-2{
     right: 0;
     margin-top: 11vmax;
-    margin-right: 16vmax;
+    margin-right:7vmax;
     
     width: 10vmax; height: 10vmax;
     position: absolute;
     border-radius: 10px;
+}
+.Character-clothes-3{
+    right: 0;
+    margin-top: 16vmax;
+    margin-right:7vmax;
+    
+    width: 10vmax; height: 10vmax;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.Character-clothes-4{
+    right: 0;
+    margin-top: 21vmax;
+    margin-right:7vmax;
+    
+    width: 10vmax; height: 10vmax;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.Character-clothes-5{
+    right: 0;
+    margin-top: 26vmax;
+    margin-right:7vmax;
+    
+    width: 10vmax; height: 10vmax;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.Character-clothes-6{
+    right: 0;
+    margin-top: 31vmax;
+    margin-right:7vmax;
+    
+    width: 10vmax; height: 10vmax;
+    position: absolute;
+    border-radius: 10px;
+}
+.SideBtn{
+    float: right;
+    width:50%;
+    height:50%
 }
 
 .clothes-change{
@@ -86,7 +143,6 @@ i{
 
 .Character-color button{
     float: right;
-    
     border: 0.5vmin solid rgba(0, 0, 0, 0.514);
     width: 5vmax;   height:5vmax;
     border-radius: 35px;
@@ -96,8 +152,8 @@ i{
 }
 
 
-.change-color-green{
-    background-color: green;
+.change-color-white{
+    background-color: white;
 }
 .change-color-red{
     background-color: orange;
@@ -112,6 +168,22 @@ i{
     background-color: black
 }
 
+.Card{
+    background-color: white;
+    border-radius: 10px;
+    width: 15vmax;
+    margin: 1vmax;
+    opacity: 90%;
+}
+
+.Card-1{
+    border: 5px;
+    border: 5px solid white;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
 
 
 .footer{

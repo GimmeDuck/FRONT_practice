@@ -1,9 +1,4 @@
 
-export function body(){
-    return(
-        <div></div>
-    )
-}
 
 
 export function changeChcolor (color){
