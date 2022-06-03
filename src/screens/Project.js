@@ -1,7 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import "../components/Styles/style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Button } from "react-bootstrap";
+import domtoimage from "dom-to-image";
+import { saveAs } from "file-saver";
 
 const Body_Yellow = require("../assets/img/body/Body_Yellow.png");
 const Body_Blue = require("../assets/img/body/Body_Blue.png");
@@ -61,6 +63,16 @@ const Project = () => {
   const [EggVisible, setEggVisible] = React.useState(false);
   const [IdolVisible, setIdolVisible] = React.useState(false);
   const [BackVisible, setBackVisible] = React.useState(false);
+
+  const cardRef = useRef();
+  const onDownloadBtn = () => {
+    const card = cardRef.current;
+    domtoimage.toBlob(card).then((blob) => {
+      saveAs(blob, "duck.png");
+      console.log(blob.stream());
+    });
+  };
+
   return (
     <div>
       {/* ㅣㅣㅣㅣ오른쪽 버튼ㅣㅣㅣㅣㅣㅣㅣ */}
@@ -246,7 +258,7 @@ const Project = () => {
       </div>
 
       {/* ㅣㅣㅣㅣ캐릭터ㅣㅣㅣㅣㅣㅣㅣ */}
-      <div class="main-Div">
+      <div ref={cardRef} class="main-Div">
         {/* ㅣㅣㅣㅣbackㅣㅣㅣㅣㅣㅣㅣ */}
         <div className="Character">
           <img
@@ -568,7 +580,12 @@ const Project = () => {
           </div>
         )}
       </div>
-      <Button style={{ float: "right", marginRight: "4vmax" }}>NFT</Button>
+      <Button
+        onClick={onDownloadBtn}
+        style={{ float: "right", marginRight: "4vmax" }}
+      >
+        NFT 발행
+      </Button>
     </div>
   );
 };

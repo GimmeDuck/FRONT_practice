@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
 
+import "../components/Styles/style.css";
 const Questions = () => {
   return (
-    <div><h1>questions</h1></div>
-  )
-}
+    <div>
+      <div class="main-Div"></div>
+    </div>
+  );
+};
 
-export default Questions
+export default Questions;

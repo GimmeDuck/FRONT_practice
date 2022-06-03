@@ -3,9 +3,7 @@ import React from "react";
 const about = () => {
   return (
     <div style={{ width: "100vw", height: "100vh" }}>
-      <div>
-        <h1>About</h1>
-      </div>
+      <div></div>
       <iframe
         src="https://opensea.io/collection/moonbears-solana?embed=true"
         width="100%"

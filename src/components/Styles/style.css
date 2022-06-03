@@ -15,7 +15,7 @@
 }
 
 .Back {
-    position: absolute;
+    position: relative;
     margin: 4vmax;
     width: 45%;
     border-radius: 10px;
